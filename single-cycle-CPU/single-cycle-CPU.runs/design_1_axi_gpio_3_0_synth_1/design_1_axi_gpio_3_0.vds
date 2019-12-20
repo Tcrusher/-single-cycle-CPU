@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Dec 19 16:37:11 2019
+# Process ID: 10228
+# Current directory: D:/Vivado/Xilinx/single-cycle-CPU/single-cycle-CPU.runs/design_1_axi_gpio_3_0_synth_1
+# Command line: vivado.exe -log design_1_axi_gpio_3_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_3_0.tcl
+# Log file: D:/Vivado/Xilinx/single-cycle-CPU/single-cycle-CPU.runs/design_1_axi_gpio_3_0_synth_1/design_1_axi_gpio_3_0.vds
+# Journal file: D:/Vivado/Xilinx/single-cycle-CPU/single-cycle-CPU.runs/design_1_axi_gpio_3_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_3_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_gpio_3_0, cache-ID = ea4a5cf597429987.
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 19 16:37:37 2019...

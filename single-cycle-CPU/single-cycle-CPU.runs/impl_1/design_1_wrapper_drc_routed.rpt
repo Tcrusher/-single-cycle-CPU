@@ -1,0 +1,206 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Dec 19 16:52:50 2019
+| Host         : DESKTOP-4JFA5FP running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 34
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 34         |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][0]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][0]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][10]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][10]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][11]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][11]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][12]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][12]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][13]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][13]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][14]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][14]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][15]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][15]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][16]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][16]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][17]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][17]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][18]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][18]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][19]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][19]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][1]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][1]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][20]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][20]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][21]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][21]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][22]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][22]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][23]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][23]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][24]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][24]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][25]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][25]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][26]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][26]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][27]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][27]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][28]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][28]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][29]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][29]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][2]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][2]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][30]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][30]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][31]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][31]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][3]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][3]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][4]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][4]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][5]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][5]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][6]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][6]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][7]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][7]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][8]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][8]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][9]_P is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][9]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/id0/mem_r_reg[3][9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[1][0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[1][0]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[1][0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[2][1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[2][1]_LDC_i_1/O, cell design_1_i/single_cycle_cpu_0/inst__0/reg_file0/mem_r_reg[2][1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+
